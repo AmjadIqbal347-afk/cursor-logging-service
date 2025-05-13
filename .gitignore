@@ -1,0 +1,26 @@
+# Ignore node_modules directory
+node_modules/ # Dependency directory, should not be committed
+
+# Ignore log files
+logs/           # Log directory
+*.log           # Log files
+npm-debug.log*  # NPM debug logs
+
+# Ignore environment variable files
+.env            # Environment variables
+.env.*          # Environment files for different environments
+
+# Ignore OS-specific files
+.DS_Store       # macOS Finder metadata
+Thumbs.db       # Windows image cache
+
+# Ignore coverage reports
+coverage/       # Test coverage output
+
+# Ignore build output
+/dist/          # Distribution folder
+/build/         # Build folder
+
+# Ignore IDE/editor settings
+.vscode/        # VSCode settings
+.idea/          # JetBrains IDE settings 
